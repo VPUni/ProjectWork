@@ -341,7 +341,7 @@ p {
 }
 
 .hero__bg {
-  background: url(/images/sfondo_mappa_blu.jpg) repeat fixed;
+  background: url(images/sfondo_mappa_blu.jpg) repeat fixed;
   position: absolute;
   inset: 0;
 }
@@ -756,7 +756,7 @@ p {
 
 /* Kpi */
 .kpi-bar {
-  background: url(/images/sfondo_mappa_blu.jpg) repeat fixed;
+  background: url(images/sfondo_mappa_blu.jpg) repeat fixed;
   padding: 64px 0;
   position: relative;
   overflow: hidden;
