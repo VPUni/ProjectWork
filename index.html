@@ -1,0 +1,1193 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fonti rinnovabili, irrigazione migliore, rispetto tempi della natura, rispetto degli animali, coltivazione bio, protezione territorio, sostegno della comunità."
+    />
+    <title>I principi di sostenibilità di Melinda</title>
+
+    <!-- Font Nunito-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Collegamento agli stili -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Favicon melinda -->
+    <link
+      rel="icon"
+      href="https://melinda.it/wp-content/uploads/2019/08/cropped-favicon-150x150.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="https://melinda.it/wp-content/uploads/2019/08/cropped-favicon-240x240.png"
+      sizes="192x192"
+    />
+  </head>
+
+  <body>
+    <svg class="dnone">
+      <symbol
+        id="icona-r-arrow"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+        width="14"
+        aria-hidden="true"
+      >
+        <path d="M5 12h14M12 5l7 7-7 7" />
+      </symbol>
+    </svg>
+    <svg class="dnone">
+      <symbol
+        id="icona-check"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        width="16"
+        aria-hidden="true"
+      >
+        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </symbol>
+    </svg>
+
+    <svg class="dnone">
+      <symbol
+        id="icona-download"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        aria-hidden="true"
+      >
+        <path
+          d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"
+        />
+      </symbol>
+    </svg>
+
+    <!-- A11Y - Skip link -->
+    <a href="#main-content" class="skip-link">Vai al contenuto principale</a>
+
+    <!-- Navbar -->
+    <header role="banner">
+      <nav class="navbar" aria-label="Navigazione principale">
+        <div class="container">
+          <div class="navbar__inner">
+            <!-- Logo SVG inline Melinda-style -->
+            <a
+              href="#hero"
+              class="navbar__logo"
+              aria-label="Melinda - torna all'inizio"
+            >
+              <img
+                alt="melinda main scritta"
+                data-src="https://melinda.it/wp-content/uploads/2019/08/melinda-main-scritta.svg"
+                class="navbar__logo-icon lazyloaded"
+                src="https://melinda.it/wp-content/uploads/2019/08/melinda-main-scritta.svg"
+              />
+            </a>
+
+            <!-- Nav links -->
+            <ul class="navbar__nav" id="main-nav" role="list">
+              <li><a href="#pilastri">I Pilastri</a></li>
+              <li><a href="#melinda">Chi siamo</a></li>
+              <li><a href="#economia">Economia</a></li>
+              <li><a href="#ambiente">Ambiente</a></li>
+              <li><a href="#societa">Società</a></li>
+              <li><a href="#obiettivi">Obiettivi</a></li>
+              <li>
+                <a href="#download" class="navbar__cta">Scarica il Report</a>
+              </li>
+            </ul>
+
+            <!-- Burger -->
+            <button
+              class="navbar__burger"
+              id="burger-btn"
+              aria-expanded="false"
+              aria-controls="main-nav"
+              aria-label="Apri o chiudi il menu di navigazione"
+            >
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero -->
+      <section
+        id="hero"
+        class="hero"
+        aria-label="Copertina - Bilancio di Sostenibilità Melinda 2023"
+      >
+        <div class="hero__bg" aria-hidden="true"></div>
+
+        <div class="container hero__container">
+          <div class="hero__content">
+            <div class="hero__eyebrow">
+              <span class="dot" aria-hidden="true"></span>
+              <span>Bilancio di Sostenibilità 2023</span>
+            </div>
+            <h1 class="hero__title">
+              Coltivare<br />
+              <em>il futuro</em><br />
+              delle valli
+            </h1>
+            <p class="hero__desc">
+              Melinda racconta il suo impegno per l'ambiente, la comunità e
+              l'economia delle valli del Noce. Oltre 3.800 famiglie di
+              agricoltori, un territorio, una promessa.
+            </p>
+            <div class="hero__actions">
+              <a href="#pilastri" class="btn btn--accent">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <path d="M12 5v14M5 12l7 7 7-7" />
+                </svg>
+                Scopri la sostenibilità
+              </a>
+              <a href="#download" class="btn btn--outline">
+                <svg id="class">
+                  <use xlink:href="#icona-download"></use>
+                </svg>
+                Scarica il Report
+              </a>
+            </div>
+          </div>
+
+          <!-- Stat boxes -->
+          <div
+            class="hero__stats"
+            role="list"
+            aria-label="Numeri chiave Melinda"
+          >
+            <div class="hero__stat" role="listitem">
+              <span class="hero__stat-value">3.800+</span>
+              <span class="hero__stat-label">Famiglie di agricoltori</span>
+            </div>
+            <div class="hero__stat" role="listitem">
+              <span class="hero__stat-value">90,3%</span>
+              <span class="hero__stat-label">Energia da fonti rinnovabili</span>
+            </div>
+            <div class="hero__stat" role="listitem">
+              <span class="hero__stat-value">416M</span>
+              <span class="hero__stat-label">kg mele vendute 2021-22</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-hint" aria-hidden="true">
+          <span>Scorri</span>
+          <div class="scroll-hint__arrow">
+            <div class="scroll-hint__dot"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Strip -->
+      <div class="intro-strip reveal">
+        <div class="container">
+          <div class="intro-strip__inner">
+            <div class="intro-strip__logo">
+              <div class="intro-strip__logo-mark" aria-hidden="true">
+                <img src="images/mela.png" style="max-width: 60%" />
+              </div>
+              <div class="intro-strip__text">
+                <h2>Consorzio Melinda</h2>
+                <p>16 cooperative · Val di Non e Val di Sole · Cles (TN)</p>
+              </div>
+            </div>
+            <p class="intro-strip__desc">
+              Questo Bilancio di Sostenibilità — redatto secondo i
+              <strong>GRI Standard 2021</strong> e allineato all'<strong
+                >Agenda 2030 dell'ONU</strong
+              >
+              — documenta le performance ambientali, sociali ed economiche del
+              sistema Melinda nel periodo 1° agosto 2021 - 31 luglio 2022.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pillars -->
+      <section
+        id="pilastri"
+        class="pillars section-pad"
+        aria-labelledby="pilastri-title"
+      >
+        <div class="container">
+          <div class="pillars__header reveal">
+            <p class="label">I quattro pilastri</p>
+            <h2 id="pilastri-title">La sostenibilità secondo Melinda</h2>
+            <p class="chapter__subtitle">
+              Il bilancio si articola in quattro aree tematiche che riflettono
+              l'identità cooperativa del Consorzio e il suo rapporto con il
+              territorio.
+            </p>
+          </div>
+
+          <div class="pillars__grid">
+            <article class="pillar-card pillar-card--blue reveal delay-1">
+              <div class="pillar-card__title">
+                <div class="pillar-card__no" aria-hidden="true">1</div>
+                <h3>Il mondo di Melinda</h3>
+              </div>
+              <p>
+                Il Consorzio, i soci, la vision e la mission. Le peculiarità del
+                territorio, il microclima unico della Val di Non, le
+                certificazioni ottenute e il cammino verso la sostenibilità.
+              </p>
+              <a
+                href="#melinda"
+                class="pillar-card__link"
+                aria-label="Vai alla sezione Il mondo di Melinda"
+              >
+                Approfondisci
+
+                <svg class="icon">
+                  <use xlink:href="#icona-r-arrow"></use>
+                </svg>
+              </a>
+            </article>
+
+            <article class="pillar-card pillar-card--light-blue reveal delay-2">
+              <div class="pillar-card__title">
+                <div class="pillar-card__no" aria-hidden="true">2</div>
+                <h3>L'economia e il mercato</h3>
+              </div>
+              <p>
+                Numeri chiave, storia di aggregazione sostenibile, distribuzione
+                capillare e filiera radicata al territorio. Oltre l'80% del
+                valore generato ridistribuito nelle valli del Noce.
+              </p>
+              <a
+                href="#economia"
+                class="pillar-card__link light"
+                aria-label="Vai alla sezione Economia"
+              >
+                Approfondisci
+                <svg class="icon">
+                  <use xlink:href="#icona-r-arrow"></use>
+                </svg>
+              </a>
+            </article>
+
+            <article class="pillar-card pillar-card--green reveal delay-3">
+              <div class="pillar-card__title">
+                <div class="pillar-card__no" aria-hidden="true">3</div>
+                <h3>La cura dell'ambiente</h3>
+              </div>
+              <p>
+                Frutticoltura e biodiversità, apicoltura, produzione biologica,
+                packaging sostenibile, energie rinnovabili, celle ipogee e
+                gestione idrica responsabile.
+              </p>
+              <a
+                href="#ambiente"
+                class="pillar-card__link"
+                aria-label="Vai alla sezione Ambiente"
+              >
+                Approfondisci
+                <svg class="icon">
+                  <use xlink:href="#icona-r-arrow"></use>
+                </svg>
+              </a>
+            </article>
+
+            <article class="pillar-card pillar-card--gold reveal delay-4">
+              <div class="pillar-card__title">
+                <div class="pillar-card__no" aria-hidden="true">4</div>
+                <h3>Etica e società</h3>
+              </div>
+              <p>
+                Le donne di Melinda, i lavoratori stagionali stranieri, la
+                formazione continua, il sostegno al territorio e alle comunità
+                fragili. Oltre 600.000 € destinati al territorio.
+              </p>
+              <a
+                href="#societa"
+                class="pillar-card__link"
+                aria-label="Vai alla sezione Società"
+              >
+                Approfondisci
+                <svg class="icon">
+                  <use xlink:href="#icona-r-arrow"></use>
+                </svg>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- KPI -->
+      <div
+        class="kpi-bar reveal"
+        role="region"
+        aria-label="Indicatori chiave di performance"
+      >
+        <div class="container">
+          <div class="kpi-bar__grid">
+            <div class="kpi-item">
+              <span class="kpi-item__value"
+                >276<span class="kpi-item__unit">M€</span></span
+              >
+              <span class="kpi-item__label">Ricavi 2021-22</span>
+            </div>
+            <div class="kpi-item">
+              <span class="kpi-item__value">1.438</span>
+              <span class="kpi-item__label">Dipendenti totali</span>
+            </div>
+            <div class="kpi-item">
+              <span class="kpi-item__value">240+</span>
+              <span class="kpi-item__label">Ettari coltivati bio</span>
+            </div>
+            <div class="kpi-item">
+              <span class="kpi-item__value">25.000</span>
+              <span class="kpi-item__label">m² fotovoltaico</span>
+            </div>
+            <div class="kpi-item">
+              <span class="kpi-item__value">30%</span>
+              <span class="kpi-item__label"
+                >Risparmio idrico con irrigazione a goccia</span
+              >
+            </div>
+            <div class="kpi-item">
+              <span class="kpi-item__value">600+</span>
+              <span class="kpi-item__label">mila € donati al territorio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pillar 1 - IL MONDO DI MELINDA -->
+      <section
+        id="melinda"
+        class="section-pad chapter chapter--light"
+        aria-labelledby="melinda-title"
+      >
+        <div class="container">
+          <div class="reveal chapter__header">
+            <p class="label">Capitolo 1</p>
+            <h2 id="melinda-title">Il mondo di Melinda</h2>
+            <p class="chapter__subtitle">
+              Un consorzio cooperativo di secondo grado radicato nelle valli del
+              Noce, in Trentino. 16 cooperative, oltre 3.800 famiglie di
+              agricoltori, un territorio unico al mondo e una governance
+              trasparente orientata alla sostenibilità.
+            </p>
+          </div>
+
+          <div class="reveal split-section">
+            <div class="split-section__card">
+              <div class="split-section__card-header">
+                <p class="label label--small">Chi siamo</p>
+                <h3>Il Consorzio, i soci e le valli</h3>
+              </div>
+              <div class="split-section__card-body">
+                <p>
+                  Melinda è una cooperativa di secondo grado con sede a
+                  <strong>Cles, in Val di Non (TN)</strong>. Raggruppa 16
+                  cooperative di primo grado a cui sono associate oltre
+                  <strong>3.800 famiglie di agricoltori</strong> nelle valli del
+                  Noce.
+                </p>
+                <p>
+                  È riconosciuta come
+                  <strong>Organizzazione di Produttori (OP)</strong> ai sensi
+                  della normativa comunitaria dal 2010. La governance si
+                  articola in Assemblea dei Soci, Consiglio di Amministrazione
+                  (16 membri) e Collegio Sindacale.
+                </p>
+              </div>
+            </div>
+
+            <div class="split-section__card">
+              <div class="split-section__card-header">
+                <p class="label label--small">Il territorio</p>
+                <h3>Un microclima unico al mondo</h3>
+              </div>
+              <div class="split-section__card-body">
+                <p>
+                  La Val di Non è una valle chiusa su tre lati dalle catene
+                  montuose (Monti Anauni, Dolomiti del Brenta, Catena delle
+                  Maddalene). Il clima mite favorisce lo sviluppo di mele con
+                  <strong>alto grado zuccherino, fresche e fragranti</strong>.
+                </p>
+                <p>
+                  Il terreno di origine rocciosa dolomitica, ricco di calcio e
+                  magnesio, unito alle forti escursioni termiche tra notte e
+                  giorno, conferisce alle mele le loro caratteristiche
+                  distintive: polpa croccante, buccia colorata con la
+                  caratteristica
+                  <strong>faccetta rossa</strong>
+                  della Golden.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mission, Codice e Bilancio -->
+      <div
+        class="mcb-bar reveal"
+        role="region"
+        aria-label="Vision, mission e bilancio"
+      >
+        <div class="container">
+          <div class="mcb-bar__grid">
+            <div class="mcb-item">
+              <div class="mcb-item__title">Mission</div>
+              <div class="mcb-item__body">
+                Coltivare la terra e le piante in modo naturale per soddisfare
+                le aspettative di clienti e consumatori, generando
+                <strong>reddito sostenibile per gli agricoltori</strong> e
+                sviluppo armonico per le comunità locali.
+              </div>
+            </div>
+
+            <div class="mcb-item">
+              <div class="mcb-item__title">Codice Etico</div>
+              <div class="mcb-item__body">
+                Melinda ha adottato un <strong>Codice Etico</strong> che
+                definisce i principi di riferimento per tutti i comportamenti
+                dei soci e degli addetti del Consorzio, a garanzia di
+                trasparenza e responsabilità.
+              </div>
+            </div>
+
+            <div class="mcb-item">
+              <div class="mcb-item__title">Il Bilancio GRI</div>
+              <div class="mcb-item__body">
+                Primo bilancio avviato nel 2022 nell'ambito del
+                <strong>Progetto Trentino Frutticolo Sostenibile</strong>.
+                Redatto secondo i <strong>GRI Standard 2021</strong> con
+                Assurance Esterna di Agroter.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pillar 2 - L'ECONOMIA E IL MERCATO -->
+      <section
+        id="economia"
+        class="section-pad chapter chapter--light-blue"
+        aria-labelledby="economia-title"
+      >
+        <div class="container">
+          <div class="reveal chapter__header">
+            <p class="label label--dark">Capitolo 2</p>
+            <h2 id="economia-title">L'economia e il mercato</h2>
+            <p class="chapter__subtitle">
+              Melinda è una delle più importanti organizzazioni che operano in
+              frutticoltura nel territorio nazionale. Oltre l'80% del valore
+              generato rimane nelle valli del Noce.
+            </p>
+          </div>
+
+          <div class="economia__grid">
+            <div class="reveal-left">
+              <div class="table-wrapper">
+                <table>
+                  <caption class="table__caption">
+                    Dimensioni dell'organizzazione — serie storica
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Anno</th>
+                      <th scope="col">Dipendenti</th>
+                      <th scope="col">Ricavi (€)</th>
+                      <th scope="col">Mele vendute (kg)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2018-19</td>
+                      <td>1.458</td>
+                      <td>241.581.621</td>
+                      <td>419.503.623</td>
+                    </tr>
+                    <tr>
+                      <td>2019-20</td>
+                      <td>1.508</td>
+                      <td>300.978.460</td>
+                      <td>339.050.861</td>
+                    </tr>
+                    <tr>
+                      <td>2020-21</td>
+                      <td>1.363</td>
+                      <td>323.842.665</td>
+                      <td>421.782.974</td>
+                    </tr>
+                    <tr class="highlight">
+                      <td>2021-22</td>
+                      <td>1.438</td>
+                      <td>276.255.868</td>
+                      <td>416.130.801</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="table-wrapper">
+                <div class="table__caption" style="padding-bottom: 14px">
+                  Mercati di destinazione 2021-22
+                </div>
+                <div role="list" class="market-list">
+                  <div role="listitem" class="market-item">
+                    <div class="market-item__country">Italia</div>
+                    <div class="market-item__sales-bar">
+                      <div
+                        class="market-item__sales-bar--fill"
+                        style="--width: 74%; --bg-color: darkgreen"
+                        role="presentation"
+                      ></div>
+                    </div>
+                    <span class="market-item__value">74%</span>
+                  </div>
+
+                  <div role="listitem" class="market-item">
+                    <div class="market-item__country">Europa</div>
+                    <div class="market-item__sales-bar">
+                      <div
+                        class="market-item__sales-bar--fill"
+                        style="--width: 60.5%; --bg-color: var(--brand-main)"
+                        role="presentation"
+                      ></div>
+                    </div>
+                    <span class="market-item__value">60,5%</span>
+                  </div>
+
+                  <div role="listitem" class="market-item">
+                    <div class="market-item__country">Africa</div>
+                    <div class="market-item__sales-bar">
+                      <div
+                        class="market-item__sales-bar--fill"
+                        style="--width: 29%; --bg-color: var(--gold)"
+                        role="presentation"
+                      ></div>
+                    </div>
+                    <span class="market-item__value">29%</span>
+                  </div>
+
+                  <div role="listitem" class="market-item">
+                    <div class="market-item__country">Asia</div>
+                    <div class="market-item__sales-bar">
+                      <div
+                        class="market-item__sales-bar--fill"
+                        style="--width: 9%; --bg-color: var(--brand-accent)"
+                        role="presentation"
+                      ></div>
+                    </div>
+                    <span class="market-item__value">9%</span>
+                  </div>
+
+                  <div role="listitem" class="market-item">
+                    <div class="market-item__country">Americhe</div>
+                    <div class="market-item__sales-bar">
+                      <div
+                        class="market-item__sales-bar--fill"
+                        style="--width: 1.5%; --bg-color: darkred"
+                        role="presentation"
+                      ></div>
+                    </div>
+                    <span class="market-item__value">1,5%</span>
+                  </div>
+
+                  <div class="market-list__caption">
+                    % di valore sulle vendite in Italia ed export. Fonte:
+                    elaborazioni Agroter su dati Melinda.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="economia__sidebar reveal-right">
+              <div class="eco-card">
+                <h3 class="eco-card__title">Economia circolare distrettuale</h3>
+                <div class="eco-card__value">80%+</div>
+                <p class="eco-card__desc">
+                  del valore generato da Melinda viene redistribuito nel
+                  territorio delle valli del Noce, alimentando la comunità
+                  locale.
+                </p>
+              </div>
+              <div class="eco-card">
+                <h3 class="eco-card__title">
+                  Impatto occupazionale diretto e indiretto
+                </h3>
+                <div class="eco-card__value">14.000</div>
+                <p class="eco-card__desc">
+                  persone coinvolte nell'indotto del distretto della mela. La
+                  frutticoltura occupa il 26% della popolazione residente nelle
+                  valli.
+                </p>
+              </div>
+              <div class="eco-card">
+                <h3 class="eco-card__title">MelindaLab - trasformato</h3>
+                <div class="eco-card__value">16M€</div>
+                <p class="eco-card__desc">
+                  di fatturato nel 2022 per la nuova Business Unit. 40 milioni
+                  di prodotti a base frutta, 40 dipendenti in 2 stabilimenti.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pillar 3 - LA CURA DELL'AMBIENTE -->
+      <section
+        id="ambiente"
+        class="section-pad chapter chapter--accent"
+        aria-labelledby="ambiente-title"
+      >
+        <div class="container">
+          <div class="reveal chapter__header">
+            <p class="label label--light">Capitolo 3</p>
+            <h2 id="ambiente-title">La cura dell'ambiente</h2>
+            <p class="chapter__subtitle">
+              L'87,7% del territorio delle valli del Noce è costituito da boschi
+              e pascoli. Melinda tutela questa ricchezza naturale con pratiche
+              agricole a basso impatto e tecnologie innovative.
+            </p>
+          </div>
+
+          <!-- Grid features ambiente -->
+          <div class="feature-grid reveal">
+            <div class="feature-card delay-1">
+              <div class="feature-item__body">
+                <h3>Produzione integrata e biologica</h3>
+                <p>
+                  Approccio di equivalenza ambientale. Oltre 240 ettari in
+                  tecnica bio. Certificazione QBSar (valore medio 140/160) per
+                  la qualità biologica dei suoli.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-card delay-1">
+              <div class="feature-item__body">
+                <h3>Apicoltura e biodiversità</h3>
+                <p>
+                  Nelle valli del Noce nel 2021 si contavano 3.048 arnie e 195
+                  apicoltori. Sinergia strutturale tra frutticoltura e
+                  impollinatori.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-card delay-2">
+              <div class="feature-item__body">
+                <h3>Packaging sostenibile - le 3R</h3>
+                <p>
+                  23.000 t di imballaggi nel 2021-22, di cui 93% da fonti
+                  rinnovabili. Oltre il 55% in cartone ondulato riciclabile. Uso
+                  di R-PET al posto del PET vergine.
+                </p>
+              </div>
+            </div>
+            <div class="feature-card delay-2">
+              <div class="feature-item__body">
+                <h3>Solo fonti rinnovabili</h3>
+                <p>
+                  90,29% del fabbisogno da idroelettrico (Diga di Santa
+                  Giustina), 9,71% da fotovoltaico proprio (25.000 m²). Consumo
+                  totale: 52,7 milioni di kWh.
+                </p>
+              </div>
+            </div>
+            <div class="feature-card delay-3">
+              <div class="feature-item__body">
+                <h3>Non si spreca una goccia d'acqua</h3>
+                <p>
+                  Irrigazione a goccia per -30% di consumi. Sistema ECORECYCLING
+                  con tre circuiti chiusi: riduzione acqua nelle vasche del
+                  60-90% tramite riciclo.
+                </p>
+              </div>
+            </div>
+            <div class="feature-card delay-3">
+              <div class="feature-item__body">
+                <h3>Innovazione tecnologica</h3>
+                <p>
+                  Droni "eye scab" per monitoraggio ticchiolatura in
+                  collaborazione con UniTrento e FEM. Sistema S.O.PH.I.A per
+                  applicazione fitosanitaria di precisione.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Highlight su Celle Ipogee -->
+      <section class="feature-highlight" aria-labelledby="ipogee-title">
+        <div class="feature-highlight__inner">
+          <div class="feature-highlight__text reveal-left">
+            <p class="label label--light">Innovazione unica al mondo</p>
+            <h2 id="ipogee-title">
+              Le Celle Ipogee:<br />la frutta dentro la montagna
+            </h2>
+            <p>
+              Le mele di Melinda sono le uniche al mondo conservate sottoterra,
+              in gallerie scavate nella roccia dolomitica a circa 300 m di
+              profondità. Le proprietà isolanti naturali della roccia abbattono
+              il consumo energetico rispetto alla conservazione epigea
+              tradizionale.
+            </p>
+            <p>
+              Il progetto ha vinto il
+              <strong>Good Energy Award 2015</strong>
+              e il
+              <strong>Sodalitas Social Award 2015</strong>.
+            </p>
+            <div>
+              <a href="#download" class="btn btn--outline">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"
+                  />
+                  <polyline points="14,2 14,8 20,8" />
+                </svg>
+                Leggi il Report completo
+              </a>
+            </div>
+          </div>
+
+          <div class="feature-highlight__visual reveal-right">
+            <div class="ipogee-infographic">
+              <div
+                class="ipogee-circle"
+                role="img"
+                aria-label="Risparmio energetico celle ipogee: 12 GWh"
+              >
+                <span class="ipogee-circle__value">12</span>
+                <span class="ipogee-circle__unit">GWh</span>
+                <span class="ipogee-circle__label">risparmio annuo</span>
+              </div>
+
+              <div class="ipogee-badges" role="list">
+                <div class="ipogee-badge" role="listitem">
+                  <div>
+                    <div class="ipogee-badge__text">Profondità</div>
+                    <div class="ipogee-badge__value">~300 m</div>
+                  </div>
+                </div>
+                <div class="ipogee-badge" role="listitem">
+                  <div>
+                    <div class="ipogee-badge__text">Capacità stoccaggio</div>
+                    <div class="ipogee-badge__value">40.000 t</div>
+                  </div>
+                </div>
+                <div class="ipogee-badge" role="listitem">
+                  <div>
+                    <div class="ipogee-badge__text">Viaggi evitati/anno</div>
+                    <div class="ipogee-badge__value">12.000</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pillar 4 - ETICA E SOCIETÀ -->
+      <section
+        id="societa"
+        class="section-pad chapter chapter--gold"
+        aria-labelledby="societa-title"
+      >
+        <div class="container">
+          <div class="reveal chapter__header">
+            <p class="label label--light">Capitolo 4</p>
+            <h2 id="societa-title">Etica e società</h2>
+            <p class="chapter__subtitle">
+              Le persone sono il centro del sistema Melinda. Lavoratori,
+              famiglie degli agricoltori, comunità locali e categorie fragili:
+              una rete di relazioni basata su rispetto, formazione e
+              solidarietà.
+            </p>
+          </div>
+
+          <div class="etica__grid">
+            <article class="etica-card reveal delay-1">
+              <div class="etica-card__value">2/3</div>
+              <h3>Le donne di Melinda</h3>
+              <p>
+                I due terzi dei dipendenti sono donne. Nessuna differenza
+                retributiva tra uomini e donne per la stessa mansione. Part-time
+                disponibile per lavoratrici-madri.
+              </p>
+            </article>
+            <article class="etica-card reveal delay-2">
+              <div class="etica-card__value">75%</div>
+              <h3>Lavoratori stagionali</h3>
+              <p>
+                Il 75% dei lavoratori stagionali è straniero. Nella campagna
+                2022 quasi 10.000 contratti stagionali. Molti ritornano ogni
+                anno, creando stabili reti di integrazione.
+              </p>
+            </article>
+            <article class="etica-card reveal delay-3">
+              <div class="etica-card__value">100%</div>
+              <h3>Formazione</h3>
+              <p>
+                Il 100% dei dipendenti riceve formazione. Nel 2022: 5.386
+                addetti formati su 7 corsi tecnici. Finanziata con fondi
+                interprofessionali FONDIRIGENTI e FONDITALIA.
+              </p>
+            </article>
+            <article class="etica-card reveal delay-1">
+              <div class="etica-card__value">600K€</div>
+              <h3>Solidarietà territoriale</h3>
+              <p>
+                Oltre 600.000 € destinati ogni anno a più di 30 enti del
+                territorio trentino. In più, 400.000 € donati all'Azienda
+                Sanitaria Trentina durante l'emergenza Covid-19.
+              </p>
+            </article>
+            <article class="etica-card reveal delay-2">
+              <div class="etica-card__value">48.647</div>
+              <h3>Turismo e agricoltura</h3>
+              <p>
+                Presenze negli agriturismi della Val di Non nel 2022 — anno
+                record. Progetto "Agritur Ambasciatori di Melinda": 20 strutture
+                selezionate. 540 operatori agricoli coinvolti.
+              </p>
+            </article>
+            <article class="etica-card reveal delay-3">
+              <div class="etica-card__value">30+</div>
+              <h3>Enti supportati</h3>
+              <p>
+                Melinda collabora con oltre 30 enti tra cui Bambini delle Fate,
+                Fondazione Sodalitas, Banco Alimentare Trentino, Trentino
+                Solidale e Fondazione Ivo de Carneri Onlus.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certificazioni -->
+      <div class="cert-strip reveal">
+        <div class="container">
+          <div class="cert-strip__header">
+            <p class="label" style="margin-bottom: 8px">
+              Standard e certificazioni
+            </p>
+            <h3>Il sistema Melinda è certificato</h3>
+          </div>
+          <div
+            class="cert-strip__list"
+            role="list"
+            aria-label="Certificazioni ottenute"
+          >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>ISO 9001</span
+            >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>BRC Global Food
+              Safety</span
+            >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>IFS</span
+            >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>Global G.A.P.</span
+            >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>GRASP</span
+            >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>EPD - Dichiarazione
+              Ambientale</span
+            >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>SMETA v6.1</span
+            >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>NATURLAND</span
+            >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>Biodiversity
+              Alliance</span
+            >
+            <span class="cert-badge" role="listitem"
+              ><span class="dot" aria-hidden="true"></span>GRI Standard
+              2021</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!--  Obiettivi -->
+      <section
+        id="obiettivi"
+        class="section-pad chapter chapter--light"
+        aria-labelledby="obiettivi-title"
+      >
+        <div class="container">
+          <div class="reveal chapter__header">
+            <p class="label">Dove stiamo andando</p>
+            <h2 id="obiettivi-title">Obiettivi dichiarati</h2>
+            <p class="chapter__subtitle">
+              Melinda ha definito obiettivi misurabili e pubblici per i prossimi
+              anni, in coerenza con l'Agenda 2030 dell'ONU.
+            </p>
+          </div>
+          <div class="goals__list">
+            <div class="goal-item goal-item--2024 reveal delay-1">
+              <div class="goal-item__year" aria-label="Obiettivo per il 2024">
+                2024
+              </div>
+              <div class="goal-item__body">
+                <h4>100% produzione certificata</h4>
+                <p>
+                  Mantenimento della produzione certificata secondo produzione
+                  integrata (UNI 11233) o biologica (Reg. UE 2018/848).
+                </p>
+              </div>
+            </div>
+            <div class="goal-item goal-item--2024 reveal delay-2">
+              <div class="goal-item__year" aria-label="Obiettivo per il 2024">
+                2024
+              </div>
+              <div class="goal-item__body">
+                <h4>+2.800.000 kWh fotovoltaico</h4>
+                <p>
+                  Ulteriore produzione da impianti fotovoltaici propri, in
+                  aggiunta ai 5,5 milioni di kWh già prodotti.
+                </p>
+              </div>
+            </div>
+            <div class="goal-item goal-item--2024 reveal delay-3">
+              <div class="goal-item__year" aria-label="Obiettivo per il 2024">
+                2024
+              </div>
+              <div class="goal-item__body">
+                <h4>Funivia Riomaggiore-Cocea</h4>
+                <p>
+                  Collegamento tra il sito ipogeo e la sala di lavorazione:
+                  -12.000 viaggi/anno con veicoli a motore. 40.000 t
+                  trasportate.
+                </p>
+              </div>
+            </div>
+            <div class="goal-item goal-item--2026 reveal delay-1">
+              <div class="goal-item__year" aria-label="Obiettivo per il 2026">
+                2026
+              </div>
+              <div class="goal-item__body">
+                <h4>S.O.PH.I.A su 300 ettari</h4>
+                <p>
+                  Estensione del sistema di distribuzione fitosanitaria di
+                  precisione dagli attuali 80 a 300 ettari di frutteti.
+                </p>
+              </div>
+            </div>
+            <div class="goal-item goal-item--2026 reveal delay-2">
+              <div class="goal-item__year" aria-label="Obiettivo per il 2026">
+                2026
+              </div>
+              <div class="goal-item__body">
+                <h4>Irrigazione a goccia 100%</h4>
+                <p>
+                  Estensione dell'irrigazione a goccia al 100% delle superfici
+                  dove è razionalmente applicabile (dal 97% attuale).
+                </p>
+              </div>
+            </div>
+            <div class="goal-item goal-item--2026 reveal delay-3">
+              <div class="goal-item__year" aria-label="Obiettivo per il 2026">
+                2026
+              </div>
+              <div class="goal-item__body">
+                <h4>LCA certificata su tutte le attività</h4>
+                <p>
+                  Applicazione della Life Cycle Assessment (LCA) alle attività
+                  del Consorzio tramite sistemi certificati.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Download -->
+      <section
+        id="download"
+        class="section-pad chapter chapter--accent"
+        aria-labelledby="download-title"
+      >
+        <div class="container">
+          <div class="download__grid">
+            <div class="download__text reveal-left">
+              <p class="label label--light">Report ufficiale</p>
+              <h2 id="download-title">
+                Scarica il Bilancio di Sostenibilità 2023
+              </h2>
+              <p>
+                Il documento completo, redatto secondo i GRI Standard 2021, con
+                Assurance Esterna, racconta in 102 pagine l'intero percorso di
+                sostenibilità del Consorzio Melinda: dati, obiettivi, storie e
+                numeri.
+              </p>
+              <div class="download__badges">
+                <div class="download__badge">
+                  <svg class="icon">
+                    <use xlink:href="#icona-check"></use>
+                  </svg>
+                  GRI Standard 2021
+                </div>
+                <div class="download__badge">
+                  <svg class="icon">
+                    <use xlink:href="#icona-check"></use>
+                  </svg>
+                  Assurance Esterna Agroter
+                </div>
+                <div class="download__badge">
+                  <svg class="icon">
+                    <use xlink:href="#icona-check"></use>
+                  </svg>
+                  Agenda 2030 ONU
+                </div>
+              </div>
+            </div>
+
+            <div class="download__card reveal-right">
+              <h3>Bilancio di Sostenibilità</h3>
+              <p>PDF · 102 pagine · Edizione 2023</p>
+              <a
+                href="files/BilancioSostenibilitaMelinda2023.pdf"
+                download="Melinda_Bilancio_Sostenibilita_2023.pdf"
+                class="btn btn--primary"
+                aria-label="Scarica il Bilancio di Sostenibilità Melinda 2023 in formato PDF"
+              >
+                <svg id="class">
+                  <use xlink:href="#icona-download"></use>
+                </svg>
+                Scarica il PDF
+              </a>
+              <p class="disclaimer">
+                File originale di Consorzio Melinda. Il file e i suoi contenuti
+                appartengono a Consorzio Melinda &reg;
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <a href="https://melinda.it/"
+              ><img
+                width="100"
+                data-src="https://melinda.it/wp-content/uploads/2019/08/logo-white.svg"
+                class="lazyloaded"
+                src="https://melinda.it/wp-content/uploads/2019/08/logo-white.svg"
+            /></a>
+            <p>
+              Cooperativa agricola di secondo grado con sede a Cles, in Val di
+              Non (TN).
+            </p>
+            <p>
+              Via Trento, 242 — 38023 Cles (TN)<br />
+              https://melinda.it
+            </p>
+          </div>
+          <nav class="footer__col" aria-label="Link sezioni del sito">
+            <h4>Sezioni</h4>
+            <ul>
+              <li><a href="#pilastri">I Pilastri</a></li>
+              <li><a href="#ambiente">Ambiente</a></li>
+              <li><a href="#economia">Economia</a></li>
+              <li><a href="#societa">Etica e Società</a></li>
+              <li><a href="#obiettivi">Obiettivi futuri</a></li>
+            </ul>
+          </nav>
+          <div class="footer__col">
+            <h4>Risorse</h4>
+            <ul>
+              <li>
+                <a
+                  href="files/BilancioSostenibilitaMelinda2023.pdf"
+                  download="Melinda_Bilancio_Sostenibilita_2023.pdf"
+                  aria-label="Scarica il PDF del Bilancio di Sostenibilità"
+                >
+                  Scarica il Report PDF
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.melinda.it"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Sito ufficiale Melinda (apre in nuova finestra)"
+                  >melinda.it</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.gri.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Global Reporting Initiative (apre in nuova finestra)"
+                  >GRI Standard</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>
+            © 2026 Consorzio Melinda. Bilancio di Sostenibilità redatto secondo
+            GRI Standard 2021. Tutti i diritti appartengono a Consorzio Melinda
+            &reg; P.IVA e CF 01567870223.
+            <br />
+            Sito web realizzato nell'ambito della tesi di laurea di UniPegaso -
+            Informatica per le aziende digitali (L31) - A.A. 2025/2026
+          </p>
+          <span class="footer__gri" aria-label="Conforme ai GRI Standard 2021">
+            <svg class="icon">
+              <use xlink:href="#icona-check"></use>
+            </svg>
+            GRI Standard 2021 - Core
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- Script per scrolling e animazione -->
+  <script src="script.js"></script>
+</html>
