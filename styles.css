@@ -1597,6 +1597,7 @@ tr.highlight td:not(:first-child) {
   .economia .economia__grid {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .kpi-bar__grid {
     grid-template-columns: 1fr;
@@ -1608,12 +1609,17 @@ tr.highlight td:not(:first-child) {
     transform: none;
   }
   .table-wrapper {
-    max-width: 100vw;
-    margin-left: -20px;
-    border-radius: 0;
+    max-width: 90vw;
+  }
+  .table__caption {
+    font-size: 0.7rem;
+  }
+  .table-wrapper th {
+    font-size: 0.7rem;
+    letter-spacing: 0;
   }
   .table-wrapper td {
-    font-size: 0.78rem;
+    font-size: 0.7rem;
   }
 }
 
