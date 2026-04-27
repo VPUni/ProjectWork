@@ -1516,7 +1516,7 @@ tr.highlight td:not(:first-child) {
 }
 @media (max-width: 768px) {
   .hero__container {
-    padding: 0;
+    padding: 0 !important;
   }
   .hero__content {
     padding: 80px 60px 0;
@@ -1581,11 +1581,17 @@ tr.highlight td:not(:first-child) {
   .hero__stats {
     grid-template-columns: 1fr;
   }
+  .container.economia {
+    padding: 0 2%;
+  }
   .kpi-bar__grid {
     grid-template-columns: 1fr;
   }
   .goals__list {
     grid-template-columns: 1fr;
+  }
+  .reveal-right {
+    transform: none;
   }
 }
 
