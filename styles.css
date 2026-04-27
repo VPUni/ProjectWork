@@ -1586,6 +1586,7 @@ tr.highlight td:not(:first-child) {
   }
   .hero__title {
     font-size: 4rem;
+    margin-top: 10px;
   }
   .hero__stats {
     grid-template-columns: 1fr;
