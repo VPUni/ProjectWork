@@ -905,6 +905,9 @@ p {
   width: 100%;
   border-collapse: collapse;
 }
+.table-wrapper thead {
+  color: var(--off-white);
+}
 .table__caption {
   font-family: Sugarpunch;
   font-size: 0.8rem;
@@ -1032,7 +1035,7 @@ tr.highlight td:not(:first-child) {
   margin-top: 60px;
 }
 .feature-card {
-  background: rgba(from var(--off-white) r g b / 40%);
+  background: var(--off-white);
   border-radius: var(--radius-md);
   padding: 24px;
   display: flex;
@@ -1368,7 +1371,7 @@ tr.highlight td:not(:first-child) {
   text-align: center;
   min-width: 260px;
   backdrop-filter: blur(10px);
-  background: rgba(from var(--off-white) r g b / 40%);
+  background: var(--off-white);
   max-width: 360px;
   color: var(--brand-main);
 }
