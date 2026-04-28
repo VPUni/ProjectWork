@@ -13,20 +13,6 @@
 
   --light-blue-alpha: rgba(65, 97, 120, 0.2);
 
-  /* @todo START da rivedere */
-
-  /* --green-deep: #1a4d2e;
-  --green-mid: #2e7d4f;
-  --green-light: #4caf70;
-  --green-pale: #e8f5ed;
-  --blue-dark: #1c3557;
-  --blue-mid: #2c5282;
-
-  --text-mid: #4a4a4a;
-  --text-light: #6b6b6b; */
-
-  /* END da rivedere */
-
   --radius-sm: 6px;
   --radius-md: 12px;
   --radius-lg: 24px;
@@ -1454,7 +1440,6 @@ tr.highlight td:not(:first-child) {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 100px;
   padding: 5px 14px;
-  font-family: Nunito, sans-serif;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -1462,9 +1447,7 @@ tr.highlight td:not(:first-child) {
   color: rgba(255, 255, 255, 0.45);
 }
 
-/* =========================================================
-       RESPONSIVE
-       ========================================================= */
+/* Media queries */
 @media (max-width: 1024px) {
   .split-section {
     grid-template-columns: 1fr;
@@ -1622,11 +1605,4 @@ tr.highlight td:not(:first-child) {
   .table-wrapper td {
     font-size: 0.7rem;
   }
-}
-
-/* Misc */
-.lazyloaded {
-  opacity: 1;
-  transition: opacity 400ms;
-  transition-delay: 0ms;
 }
