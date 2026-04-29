@@ -579,20 +579,6 @@ p {
   flex-shrink: 0;
 }
 
-/*  @todo si usa sta roba? 
-.btn--outline-dark {
-  background: transparent;
-  color: var(--green-mid);
-  border: 1.5px solid var(--green-mid);
-}
-.btn--outline-dark:hover {
-  background: var(--green-mid);
-  color: #fff;
-}
-
-
-*/
-
 /* Strip  */
 .intro-strip {
   background: var(--brand-light);
